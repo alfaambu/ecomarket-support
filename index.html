@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Destek — Yatırım Takip Uygulaması</title>
+<style>
+  :root { --bg:#0f1115; --card:#181b22; --txt:#e8eaed; --muted:#9aa0a6; --accent:#2e9e6b; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+         background:var(--bg); color:var(--txt); line-height:1.6; }
+  .wrap { max-width:720px; margin:0 auto; padding:48px 24px; }
+  header { text-align:center; margin-bottom:40px; }
+  h1 { font-size:28px; margin:0 0 8px; }
+  .sub { color:var(--muted); }
+  .card { background:var(--card); border-radius:14px; padding:24px; margin-bottom:20px; }
+  h2 { font-size:18px; margin:0 0 12px; }
+  a { color:var(--accent); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  details { margin-bottom:10px; }
+  summary { cursor:pointer; font-weight:600; padding:8px 0; }
+  details p { color:var(--muted); margin:6px 0 14px; }
+  .btn { display:inline-block; background:var(--accent); color:#fff; padding:12px 20px;
+         border-radius:10px; font-weight:600; margin-top:8px; }
+  footer { text-align:center; color:var(--muted); font-size:13px; margin-top:32px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Yatırım Takip Uygulaması</h1>
+      <p class="sub">Destek ve İletişim</p>
+    </header>
+
+    <div class="card">
+      <h2>İletişim</h2>
+      <p>Soru, öneri veya sorunlarınız için bize e-posta gönderin. Genellikle 24–48 saat içinde yanıt veriyoruz.</p>
+      <a class="btn" href="mailto:ucaralpaslan0@gmail.com">E-posta Gönder</a>
+    </div>
+
+    <div class="card">
+      <h2>Sık Sorulan Sorular</h2>
+
+      <details>
+        <summary>Fiyatlar ne sıklıkla güncelleniyor?</summary>
+        <p>BIST hisseleri, altın ve döviz fiyatları Yahoo Finance üzerinden çekilir ve gecikmeli olabilir. Veriler yalnızca bilgilendirme amaçlıdır.</p>
+      </details>
+
+      <details>
+        <summary>Reel getiri nasıl hesaplanıyor?</summary>
+        <p>Fisher denklemi kullanılır: Reel = (1 + Nominal) / (1 + Enflasyon) − 1. Enflasyon kaynağı olarak TÜİK veya ENAG verisini seçebilirsiniz.</p>
+      </details>
+
+      <details>
+        <summary>Verilerim güvende mi?</summary>
+        <p>Yatırım verileriniz cihazınızda saklanır. İsterseniz iCloud senkronizasyonunu açarak cihazlarınız arasında güncel tutabilirsiniz.</p>
+      </details>
+
+      <details>
+        <summary>Bu uygulama yatırım tavsiyesi veriyor mu?</summary>
+        <p>Hayır. Uygulama yalnızca takip ve hesaplama amaçlıdır; yatırım tavsiyesi vermez ve alım-satım işlemi gerçekleştirmez.</p>
+      </details>
+
+      <details>
+        <summary>Banka ekstremi nasıl içe aktarırım?</summary>
+        <p>PDF ekstrenizi uygulamaya sürükleyip bırakın; yatırımlarınız otomatik olarak içe aktarılır.</p>
+      </details>
+    </div>
+
+    <div class="card">
+      <h2>Gizlilik</h2>
+      <p>Kişisel yatırım verileriniz üçüncü taraflarla paylaşılmaz. Detaylı bilgi için lütfen e-posta ile iletişime geçin.</p>
+    </div>
+
+    <footer>
+      © 2026 Yatırım Takip Uygulaması · Tüm hakları saklıdır
+    </footer>
+  </div>
+</body>
+</html>
